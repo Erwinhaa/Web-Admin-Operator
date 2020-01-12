@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background: #ccc;
+}
+
+.brand-logo {
+  margin-left: 1rem;
+}
+#notif {
+  margin-left: 5rem;
+}
+.waves-effect.waves-light.btn {
+  border-radius: 5px;
+}
+
+.showcase {
+  position: relative;
+  
+  background: url('../images/parkir.jpeg') no-repeat center
+    center/cover;
+  height: 90.2vh;
+  text-align: center;
+}
+
+.showcase::after {
+  content: '';
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.45);
+  box-shadow: inset 125px 100px 250px #000, inset -125px -100px 250px #000;
+}
+
+.showcase-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 2;
+  transform: translate(-50%, -50%);
+}
+
+.btn-large.blue.darken-2.waves-effect.waves-ripple.waves-orange {
+  border-radius: 10px;
+}
+
+.col.s6.offset-s3 {
+  margin-top: 2rem;
+}
+
+.input-field.center-align button {
+  width: 100%;
+}

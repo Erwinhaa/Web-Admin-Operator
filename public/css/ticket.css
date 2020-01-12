@@ -1,0 +1,17 @@
+table {
+    border-collapse: collapse;
+    width:100%;
+  }
+  
+  table, td, th {
+    border: 1px solid black;
+    padding:5px;
+  }
+  
+  .card{
+      width:1300px;
+      margin-left:-250px;
+  }
+  .tombol{
+      text-align:center;
+  }

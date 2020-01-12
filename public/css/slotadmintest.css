@@ -1,0 +1,145 @@
+.isi{
+        
+    width:540px;
+    height:500px;
+    
+    }
+.isi1{   
+   width:100px;
+   height:500px;
+   float:left;
+   background-color:blue;  
+}
+.d1{
+   margin-top:-37px; 
+   margin-left:480px;
+   }
+.d2{
+   margin-top:-38px;
+   margin-left:550px;
+   }
+.zer{ 
+   width:500px;
+   margin-top:-520px;
+   margin-right:150px;
+   height:500px;          
+   float:right;
+   }
+.tombol1{  
+   margin-top:-500px;
+   margin-right:-1200px;
+   }
+.kotak11{
+   
+      width:50px;
+      height:50px;
+      float:left;
+      margin-left:1px;
+      margin-bottom:1px;
+      line-height:50px;
+      text-align: center;
+      font-size:18px;
+      position: relative;
+      display:block;
+}
+.kotak21{
+      width:50px;
+      height:50px;
+      float:left;
+      margin-left:1px;
+      margin-bottom:1px;
+      line-height:50px;
+      text-align: center;
+      font-size:18px;
+      position: relative;
+      display:block;
+      background:greenyellow;
+
+}
+.kotak{
+   border:2px solid black;
+   width:50px;
+   height:50px;
+   float:left;
+   margin-left:2px;
+   margin-bottom:2px;
+   line-height:50px;
+   text-align: center;
+   font-size:18px;
+}
+.abed{
+   width:50px;
+   height:50px;
+   border:2px solid black;
+   cursor: pointer;
+
+}
+
+.input1 {
+    width: 49px;
+    height: 49px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    visibility:hidden;
+
+}
+.input1:checked + .abed {
+  background: red;
+}
+.kotaked{
+   width:50px;
+   height:50px;
+   float:left;
+   margin-left:2px;
+   margin-bottom:2px;
+   line-height:50px;
+   text-align: center;
+   font-size:20px;
+}
+.kotak1{      
+   border:2px solid black;
+   width:50px;
+   height:50px;
+   float:left;
+   background-color:greenyellow;
+   margin-left:1px;
+   margin-bottom:1px;
+   line-height:50px;
+   text-align: center;
+   font-size:18px;        
+}
+.kotak2{
+   border:2px solid black;
+   width:50px;
+   height:50px;
+   float:left;
+   background-color:yellow;
+   margin-left:1px;
+   margin-bottom:1px;
+   line-height:50px;
+   text-align: center;
+   font-size:18px;
+}
+.kotak3{ 
+   border:2px solid black;
+   width:50px;
+   height:50px;
+   float:left;
+   background-color:red;
+   margin-left:1px;
+   margin-bottom:1px;
+   line-height:50px;
+   text-align: center;
+   font-size:20px          
+}
+.zer{
+               
+    width:500px;
+    margin-top:-520px;
+    margin-right:50px;
+    height:500px;
+    
+    float:right;
+    
+}     
